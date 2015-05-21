@@ -34,5 +34,19 @@ if (userGuess === randomNumber) {
   document.write("Sorry, Your guess is not right")
 }
 
-
 ```
+
+Improve Random number Guessing Game
+
+1. if the guess is equal to the random number then player wins and the program is over.
+
+2. if the guess is incorrect and if the guess is less then the random number, then tell the user the number is larger and player will have another attempt.
+
+3. if the players second guess is correct then the player wins else losses.
+
+4. if the guess is greater then the random number then inform the user and let the user to have another go.
+
+5. and again if the players second guess is correct then the player wins else losses.
+
+
+
