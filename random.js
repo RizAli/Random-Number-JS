@@ -1,7 +1,9 @@
-var inputTwo
-var inputOne = prompt("Please type a number");
+var inputTwo = prompt("Please type a starting number");
+bottomNumber = parseInt(inputTwo);
+var inputOne = prompt("Please type an ending  number");
 topNumber = parseInt(inputOne);
 
-randomNumber = (Math.floor(Math.random() * topNumber +1));
+randomNumber = (Math.floor(Math.random() * (topNumber - bottomNumber +1)) + bottomNumber);
 
-document.write("<p>" + randomNumber + " is a number between 1 and " + topNumber + "</p>");
+var message = "<p>" + randomNumber + " is a number random number between "  + bottomNumber +  " and "  + topNumber + "</p>"
+document.write(message);
