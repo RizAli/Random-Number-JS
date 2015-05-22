@@ -36,7 +36,7 @@ if (userGuess === randomNumber) {
 
 ```
 
-Improve Random number Guessing Game
+Improve Random number Guessing Game using the following criteria
 
 1. if the guess is equal to the random number then player wins and the program is over.
 
